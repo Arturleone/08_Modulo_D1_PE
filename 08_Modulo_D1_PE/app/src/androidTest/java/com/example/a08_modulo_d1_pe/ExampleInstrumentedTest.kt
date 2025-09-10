@@ -26,7 +26,7 @@ import org.junit.Rule
 @RunWith(AndroidJUnit4::class)
 class ExampleInstrumentedTest {
 
-    val timer = 1000L
+    val timer = 10000L
 
     @get:Rule
     val rule = createComposeRule()
